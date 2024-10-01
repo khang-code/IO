@@ -16,7 +16,7 @@ public class ReadAndWriteFile {
             }
 
             BufferedReader br = new BufferedReader(new FileReader(file));
-            String line = "";
+            String line = " ";
             while ((line = br.readLine()) != null) {
                 numbers.add(Integer.parseInt(line));
             }
